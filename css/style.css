@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+p
+{
+    font-family: "Roboto", sans-serif;
+}
+h1,h2 {
+    font-family:'Girassol', cursive;
+}
+*{
+    margin: 0px;
+}
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../image/avenger.jpeg');
+    background-size: cover;
+}
+#topheder {
+    width: 100%;
+    min-height: 80px;
+}
+#topheader .d1{
+    width: 20%;
+    float: left;
+     min-height: 80px;
+    
+}
+#topheader .d1 h2{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+}
+#topheader .d1 h2 span{
+    color: red;
+}
+#topheader .d2{
+    width: 50%;
+    float: left;
+     min-height: 80px;
+    margin-left: 5%;
+}
+#topheader .d2 ul {
+    list-style:none;
+}
+#topheader .d2 ul li{
+    float: left;
+    padding: 0px 20px;
+    line-height: 80px;
+   
+}
+#topheader .d2 ul li a{
+    text-decoration: none;
+     color: white;
+     font-size: 20px;
+}
+#topheader .d2 ul li a:hover{
+    color: yellow;
+}
+#topheader .d2 .active a{
+     background: #013fa5;
+     padding: 10px;
+     border-radius: 5px;
+}
+
+#topheader .d3{
+    width: 20%;
+    float: right;
+     min-height: 80px;
+
+}
+#topheader .d3 button{
+      margin-top: 30px;
+}
+#topheader .d3 #reg_btn {
+    background: white;
+    border: none;
+    padding: 10px;
+    width: 110px;
+}
+#topheader .d3 #reg_btn:hover {
+    color:yellow
+}
+#topheader .d3 #Contact_btn {
+    background: #013fa5;
+    border: none;
+    padding: 10px;
+    width: 110px;
+    color: white;
+}
+#topheader .d3 #Contact_btn:hover{
+    color: yellow;
+}
+#bigtitle{
+    width: 30%;
+    min-height: 300px;
+   padding-top: 250px;
+    margin-left: 200px;
+    color: white;
+}
+#bigtitle h1{
+    font-size: 40px;
+}
+#bigtitle h2{
+    font-size: 30px;
+    color: yellow;
+}
+#bigtitle h2{
+    font-size: 30px;
+    color: yellow;
+}
+#bigtitle #btn-read{
+   width: 110px;
+   height: 50px;
+   background: orange;
+   color: white;
+   border: none;
+   margin-top: 20px;
+}
+
+#section1{
+   width: 100%;
+   min-height: 350px;
+   background: white;
+   padding-top: 100px;
+   text-align: center;
+}
+.inner{
+    width: 80%;
+   margin: auto;     
+}
+#section1 .d1{
+    width: 24%;
+    float: left;
+    min-height: 400px;
+}
+#section1 .d2{
+    width: 24%;
+    float: left;
+    min-height: 400px;
+     margin-left: 1.4%;
+}
+#section1 .d3{
+    width: 24%;
+    float: left;
+    min-height: 400px;
+    margin-left: 1.4%;
+}
+#section1 .d4{
+    width: 24%;
+    float: right;
+    min-height: 400px;
+}
+#section1 #icon i:hover{
+    background: blue;
+}
+
+ #icon{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    line-height: 100px;
+    border: 2px solid #2980b9;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 1px 1px 5px grey;
+    color: darkorange;
+    margin-bottom: 20px;
+ }
+ #section1 h2{ 
+    color:#2980b9;
+ }
+ #section1 h3{
+    color:#2980b9;
+    font-size: 23px;
+ }
+ #section1 p{
+    padding-top: 20px;
+   
+ }
+
+ #service{
+    width: 100%;
+   min-height: 100vh;
+   height: 100%;
+    background: #4834d4;
+    color: white;
+   
+ }
+ 
+ #service .row1{
+    width: 100%;
+    min-height: 400px;
+   
+ }
+ #service .row1 .col1 {
+     width: 70%;
+     float: left;
+     min-height: 400px;
+     
+ }
+  #service .row1 .col2 {
+     width: 30%;
+     float: left;
+     min-height: 400px;
+    
+ }
+  #service .row2{
+    width: 100%;
+    min-height: 400px;
+   
+ }
+  #service .row2 .col1 {
+     width: 30%;
+     float: left;
+     min-height: 400px;
+    
+ }
+  #service .row2 .col2 {
+     width: 70%;
+     float: left;
+     min-height: 400px;
+    
+ }
+  #service .row3{
+    width: 100%;
+    min-height: 400px;
+    
+ }
+  #service .row3 .col1 {
+     width: 70%;
+     float: left;
+     min-height: 400px;
+    
+ }
+  #service .row3 .col2 {
+     width: 30%;
+     float: left;
+     min-height: 400px;
+  }
+  .number{
+    width: 60px;
+    height: 60px;
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    font-weight: bold;
+  }
+   #service h2{
+    font-weight: bold;
+    color: yellow;
+    margin-top: 20px;
+   }
+   #service p{
+    line-height: 30px;
+   }
+   #team{
+    width: 100%;
+    min-height: 550px;
+   background: white;
+   padding-top: 50px;
+   text-align: center;
+   }
+   #team .c1{
+    width: 24%;
+    float: left;
+    min-height: 300px;
+    border: 2px solid black;
+    color: black;
+   }
+     #team .c5{
+    width: 24%;
+    float: left;
+    min-height: 300px;
+    border: 2px solid black;
+     margin-left: 1.1%;
+      color: black;
+   }  
+   #team .c3{
+    width: 24%;
+    float: left;
+    min-height: 300px;
+    border: 2px solid black;
+    margin-left: 1.1%;
+     color: black;
+   }  #team .c4{
+    width: 24%;
+    float: right;
+    min-height: 300px;
+    border: 2px solid black;
+     color: black;
+   }
+   #team img{
+    border-radius: 100%;
+    margin-top:-50px;
+   }
+   #team h1{
+    margin-bottom: 100px;
+    color: black;
+   }
+   #team h2 {
+    color: darkorange;
+   }
+    #team p {
+        line-height: 30px;
+    }
+    #team ul{
+        list-style: none;
+    }
+     #team ul li{
+        float: left;
+        line-height: 50px;
+        background: #013fa5;
+        margin-left: 10px;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+     }
+     #team ul li a{
+        text-decoration: none;
+        color: white;
+     }
+
+     #test{
+        width: 100%;
+        min-height: 600px;
+         
+        background:#feca57;
+        padding-top: 50px;
+        text-align: center;
+     }
+     #test h1{
+         margin-bottom: 40px;
+        color: black;
+     }
+     #test .c1{
+        width: 31%;
+        float: left;
+        min-height: 400px;
+        border: 2px dotted black;
+        background: white;
+     
+        color: black;
+     }
+      #test .c4{
+         width: 31%;
+        float: left;
+        min-height: 400px;
+        border: 2px dotted black;
+        background: white;
+         margin-left: 3%;
+        color: black;
+     }
+      #test .c3{
+        width: 31%;
+        float: right;
+        height: 370px;
+        border: 2px dotted black;
+        background: white;
+        
+        color: black;
+     }
+     #test img {
+        border-radius: 100%;
+        margin-top:20px;
+        border: 1px solid orange;
+        padding: 5px;  
+     }
+     #test p{
+        padding: 0px 40px;
+     }
+     #test h1{
+        color:#013fa5;
+     }
+     #fun{
+        width: 100%;
+        min-height: 600px;
+        background: white;
+     }
+     #fun   h1{
+        margin-bottom: 50px;
+        color: black;
+        padding-top: 50px;
+       
+     }
+     #fun .left{
+        width: 50%;
+        float: left;
+        min-height: 350px;
+     }
+      #fun .left .c1{
+        width: 49%;
+        min-height: 174px;
+        float: left;
+        background: #013fa5;
+        color: white;
+        margin-left: 1%;
+        margin-top: 1%;
+        text-align: center;
+       
+     }
+     #fun .left .c1 h2{
+        margin-top: 20%;
+        font-size: 30px;
+     }
+     #fun .left .c1 p{
+        color: orange;
+        font-size: 20px;
+     }
+     #fun .right{
+        width: 48%;
+        float: right;
+        min-height: 350px;
+     }
+     .down{
+        width: 100%;
+        min-height: 5px;
+        background: grey;
+     }
+     .blue{
+        width: 60%;
+        min-height: 4px;
+        background: #007bff;
+        
+     }
+      .green{
+        width: 70%;
+        min-height: 4px;
+        background: #28a745;
+       
+     }
+      .sky{
+        width: 85%;
+        min-height: 4px;
+        background: yellow;
+        
+     }
+      .red{
+        width: 100%;
+        min-height: 4px;
+        background: #dc3545;
+       
+     }
+     .right p{
+        color: black;
+        margin:20px 0px;
+     }
+     #news{
+        width: 100%;
+        min-height: 250px;
+        background: black;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+     }
+     #news h2{
+        color: white;
+     }
+    #news #input {
+        width: 40%;
+        height: 50px;
+        padding-left: 20px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    #news #btn{
+        width: 140px;
+        min-height: 50px;
+        background: orange;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+    #footer{
+        width: 100%;
+        min-height: 200px;
+        background: black;
+        color: white;
+    }
+    #footer h2{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+     #footer  span{
+        color: red;
+     }
+     #footer .left{
+        width: 30%;
+        float: left;
+        min-height: 50px;
+       
+
+     }
+    #footer .right{
+        width: 60%;
+        float: right;
+        min-height: 100px;
+        padding-top: 50px;
+        
+     }
+      #footer .right #footermenu{
+       list-style: none;
+      }
+       #footer .right   #footermenu li{
+       float: left;
+       padding: 0px 20px;
+      
+      } 
+       #footer .right  #footermenu li a{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+
+      } 
+       
+     
+      #footer .right #social{
+       list-style: none;
+       float: left;
+       margin-top: 20px;
+       margin-left: 100px;;
+      }
+       #footer .right   #social li{
+       float: left;
+       padding: 10px 20px;
+        background: white;
+        margin-left: 3px;
+      } 
+       #footer .right  #social li a{
+       text-decoration: none;
+       color: orange;
+       font-size: 20px;
+      } 
+      #footer .right #social li :hover{
+        background: orange;
+        color: white;
+
+      }
+     #footer .right #footermenu li :hover{
+        color: orange;
+
+      }
+    
+    
